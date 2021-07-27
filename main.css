@@ -1,3 +1,18 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-primary: #f70058;
+  --clr-dark: #0c0e36;
+  --clr-light: #fff;
+  --clr-normal: 400;
+  --fw-bold: 700;
+  --fw-black: 900;
+}
+
 body {
   background: #ccc;
 }
